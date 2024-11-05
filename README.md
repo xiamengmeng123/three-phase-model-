@@ -1,4 +1,4 @@
 # three-phase-model
 Predicting the bonding efficacy between organic small molecules and HMX crystal surfaces.
 
-The program is tested under pytorch 12.1,rdkit,Uni-Mol(https://github.com/deepmodeling/Uni-Mol/tree/main/unimol_tools).
+The program is tested under pytorch,rdkit,Uni-Mol(https://github.com/deepmodeling/Uni-Mol/tree/main/unimol_tools).
