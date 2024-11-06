@@ -13,7 +13,7 @@ Run python erfenlei.py、python clf_regression.py、python clf_regression_2.py i
 
 **3. Model prediction**
 
-Run ste1_classification.py、step2_regression.py、step3_regression.py in oder.Taking the million dataset as an example.
+Run ste1_classification.py、step2_regression.py、step3_regression.py in oder.Taking the 10000 dataset as an example.
 
 **4. Clustering  to extract functional groups**
 
