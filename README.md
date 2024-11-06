@@ -6,12 +6,12 @@ The program is tested under sklearn,rdkit,Uni-Mol(https://github.com/deepmodelin
 **Model comparison**
 python unimol_repr_regression.py
 
-# Model training
+**Model training**
 Run python erfenlei.py、python clf_regression.py、python clf_regression_2.py in oder.
 
-# Model prediction
+**Model prediction**
 Run ste1_classification.py、step2_regression.py、step3_regression.py in oder.Taking the million dataset as an example.
 
-# Clustering  to extract functional groups
+**Clustering  to extract functional groups**
 python generate_2dqsar_repr.py
 
