@@ -1,7 +1,7 @@
 import pandas as pd 
 from unimol_tools import MolTrain,MolPredict
 
-validation_path = ('./csv/erfenlei_selected_million.csv')
+validation_path = ('./csv/erfenlei_selected_10000.csv')
 data = pd.read_csv(validation_path,usecols=['molecule_id','SMILES'])#'molecule_id',
 data.columns = ["molecule_id","SMILES"]
 

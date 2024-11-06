@@ -1,7 +1,7 @@
 import pandas as pd 
 from unimol_tools import MolTrain,MolPredict
 
-validation_path = ('./csv/step2_prediction_results.predict.million.csv')
+validation_path = ('./csv/step2_prediction_results.predict.10000.csv')
 data = pd.read_csv(validation_path,usecols=['molecule_id','SMILES','pred']) #'molecule_id',
 
 filtered_data = data[data['pred'] > 200]
