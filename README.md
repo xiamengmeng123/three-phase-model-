@@ -3,7 +3,7 @@ Predicting the bonding efficacy between organic small molecules and HMX crystal 
 
 The program is tested under sklearn,rdkit,Uni-Mol(https://github.com/deepmodeling/Uni-Mol).
 
-# Model comparison
+**Model comparison**
 python unimol_repr_regression.py
 
 # Model training
