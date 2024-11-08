@@ -9,7 +9,7 @@ python unimol_repr_regression.py
 
 **2. Model training**
 
-Run python erfenlei.py、python clf_regression.py、python clf_regression_2.py in oder.
+Run  erfenlei.py、python clf_regression.py、python clf_regression_2.py in oder.
 
 **3. Model prediction**
 
