@@ -7,7 +7,7 @@ import joblib
 
 
 
-data = pd.read_csv('./csv/mol_fep_energy_done2.csv',sep=',').iloc[:,[1,2]]
+data = pd.read_csv('./csv/example_free_energy.csv',sep=',').iloc[:,[1,2]]
 print(data.head())
 data.columns = ["SMILES","TARGET"]
 
