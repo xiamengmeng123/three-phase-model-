@@ -1,7 +1,7 @@
 import  os 
 import pandas as pd 
 import numpy as np
-data = pd.read_csv('./csv/mol_interaction_energy.csv',sep=',').iloc[0:48236,[1,2]]
+data = pd.read_csv('./csv/mol_interaction_energy.csv',sep=',').iloc[:,[1,2]]
 print("--------------------Original data---------------------")
 print(data.head())
 # data.columns = ["molecule_id","SMILES","TARGET"]
