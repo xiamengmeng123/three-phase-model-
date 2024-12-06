@@ -29,7 +29,7 @@ clf = MolTrain(task='regression',
                 early_stopping=10,
                 metrics='mse',
                 split='random',
-                save_path='./clf',
+                save_path='./clf_interaction',
                 )
 
 
