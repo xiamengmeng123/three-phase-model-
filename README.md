@@ -9,11 +9,11 @@ python unimol_repr_regression.py
 
 **2. Model training**
 
-Run  erfenlei.py、python clf_regression.py、python clf_regression_2.py in oder.
+Run  python clf_regression.py、python clf_regression_2.py in oder.
 
 **3. Model prediction**
 
-Run ste1_classification.py、step2_regression.py、step3_regression.py in oder.Taking the 10000 dataset as an example.
+Run step2_regression.py、step3_regression.py in oder.Taking the 10000 dataset as an example.
 
 **4. Clustering  to extract functional groups**
 
