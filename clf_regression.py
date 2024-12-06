@@ -9,7 +9,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--num", type=int, help="Data segmentation point")
 args = parser.parse_args()
 
-data = pd.read_csv('./csv/mol_interaction_energy.csv',sep=',').iloc[0:args.num,[1,2]]
+data = pd.read_csv('./csv/example_interaction_energy.csv',sep=',').iloc[0:args.num,[1,2]]
 print(data.head())
 data.columns = ["SMILES","TARGET"]
 
